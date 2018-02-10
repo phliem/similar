@@ -1,0 +1,26 @@
+{
+    "extends": "airbnb",
+    "plugins": [
+        "react",
+        "jsx-a11y",
+        "import"
+    ],
+    "globals": {
+        "document": true,
+        "window": true,
+    },
+    "rules": {
+        "indent": [
+            "error", 4, { "SwitchCase": 1 }
+        ],
+        "react/jsx-indent": ["error", 4],
+        "react/jsx-filename-extension": [
+            1, { "extensions": [".js", ".jsx"] }
+        ],
+        "jsx-a11y/anchor-is-valid": [ "error", {
+            "components": [ "Link" ],
+            "specialLink": [ "to" ]
+        }],
+        "max-len": off
+    }
+}
