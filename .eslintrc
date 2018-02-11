@@ -21,6 +21,8 @@
             "components": [ "Link" ],
             "specialLink": [ "to" ]
         }],
-        "max-len": off
+        "max-len": off,
+        "comma-dangle": ["error", "never"],
+        "react/forbid-prop-types": off
     }
 }
